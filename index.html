@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>❤️‍🩹Quieres ser mi novia❤️‍🩹</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<body class="body">
+	<h1 class="body_title">❤️‍🩹Quieres ser mi novia❤️‍🩹</h1>
+	<img 
+	src="https://img.freepik.com/vector-premium/amor-diseno-tarjetas-felicitacion-silueta-romantica-pareja-amorosa_1302-15953.jpg" alt="FOTO FACHERA" class="tipo" 
+	>
+	<button id="yes"> ✨🥰Si Soy✨🥰</button>
+	<button id="nel">NO QUIERO</button>
+	<script >
+		const butonsi= document.getElementById("yes");
+		const butonnel= document.getElementById("no");
+
+		const somosnovios=()=>{
+			alert("🔥WE ARE NOW BOYFRIENDS🔥");
+			alert("NUESTRA BODA ES MAÑANA");
+		    location.href ="https://www.youtube.com/watch?v=VpCkJ8Q67sI"
+		}
+		const evitar =()=>{
+			butonnel.style.position="absolute";
+			butonnel.style.top =(Math.ramdom()* window.innerHeight)+"px";
+			butonnel.style.left =(Math.ramdom()* window.innerHeight)+"px";
+			
+		}
+		butonsi.addEventListener("click",somosnovios);
+		butonnel.addEventListener("mouseclose",evitar);
+
+	</script>
+
+</body>
+</html>
